@@ -99,6 +99,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1000
   _camera: {fileID: 5535764954142334664, guid: 75ec6c5c27c3d4791a43061686b6426b, type: 3}
+  _rigidbody: {fileID: 1933318964033620649}
+  _jumpForceMultiplier: 5
 --- !u!114 &7418713275079068856
 MonoBehaviour:
   m_ObjectHideFlags: 0
