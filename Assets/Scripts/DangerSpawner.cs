@@ -60,7 +60,7 @@ public class DangerSpawner : NetworkBehaviour {
             yield return null;
         }
         
-        _speedMultiplier += 1;
+        if (_speedMultiplier < 5) _speedMultiplier += 1;
         StartCoroutine(PrepareSpawn());
 
 
